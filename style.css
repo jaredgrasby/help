@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Argesta';
+   src: url('argestadisplay-regular-webfont.ttf');
+}
+@font-face {
+  font-family: 'Stephanie';
+   src: url('Stephanie.ttf');
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Argesta';
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+#nav {
+  position: relative;
+  z-index: 100;
+  width: 20vw;
+  height: 10vh;
+  top: 40vh;
+  left: 10px;
+  margin: 0 auto;
+  font-family: 'Stephanie';
+  letter-spacing: 24px;
+}
+
+#nav-button {
+  position: relative;
+  line-height: 10vh;
+  text-align: center;
+}
+
+#box-container {
+  position: relative;
+  background-color: black;
+  height: 20vh;
+  width: 20vw;
+  max-width: 20vh;
+  top: 20vh;
+  margin: 0 auto;
+}
+
+#box {
+  background-color: #f4f4f4;
+  z-index: 10;
+  height: 100%;
+}
+
+#card {
+  position: relative;
+  z-index: -1;
+  background-color: white;
+  height: 85%;
+  max-height: 70vh;
+  width: 90%;
+  max-width: 350px;
+  top: -18vh;
+  left: 2.5%;
+  border-radius: 10px;
+  border: 0.5px solid;
+  box-shadow: 0.75px 0.75px 5px #aba8a8;
+}
+
+#question {
+  display: none;
+  padding-left: 3%;
+  padding-top: 30%;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+#slot-bottom {
+  position: relative;
+  height: 2%;
+  background-color: black;
+  top: -18vh;
+}
